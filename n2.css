@@ -1,0 +1,2170 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;500;600&family=Work+Sans:ital,wght@0,100;0,300;0,400;0,500;0,600;0,800;0,900;1,100;1,300;1,400;1,500;1,600;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;500;600&family=Work+Sans:ital,wght@0,100;0,300;0,400;0,500;0,600;0,800;0,900;1,100;1,300;1,400;1,500;1,600;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family:'Oswald', sans-serif;
+    font-weight:500;
+}
+section{
+    padding: 80px 0px;
+}
+
+.primarymenu {
+    background: white;
+}
+
+.primarymenu {}
+
+header#topbar {
+    position: sticky;
+    top: 0;
+}
+
+ul.submenu {
+    list-style: none;
+    width: 250px;
+}
+
+li {}
+
+ul.submenu li {
+    float: none;
+}
+
+ul.submenu li a {
+    padding: 0px;
+    font-size: 15px;
+    text-transform: capitalize;
+    font-weight: 400;
+}
+.topbarmain{
+    background: #F5F5F5;
+}
+.container{
+    width: 1140px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: auto;
+} 
+.phone{
+    width: 210px;
+    float: left;
+    padding: 15px 10px;
+    border-left: 1px solid #ddd;
+    
+} 
+.email{
+    width: 678px;
+    float: left;
+    padding: 15px 10px;
+    border-left: 1px solid #ddd;
+
+}
+.social{
+    width: 210px;
+    float: left;
+}
+.topbarwrapper{
+    overflow: hidden;
+}
+.social a{
+    display: block;
+    float: left;
+    padding: 15px;
+    border-right: 1px solid #ddd;
+    color: rgb(48, 46, 46);
+}   
+.social a:first-child{
+    border-left:1px solid #ddd;
+}
+.phone i{
+    color: #ff5200;
+    padding-right: 10px;
+}
+
+.email i{
+    color: #ff5200;
+    padding-right: 10px;
+}
+.social a:hover{
+    color: #ff5200;
+    transition: 0.3s;
+}
+.primarymenuwrapper{
+    display: table;
+    width: 100%;
+}
+.logo{
+    width: 150px;
+    float: left;
+    margin-top: 22px;
+}
+.menu{
+    width: 990px;
+    float: left;
+}
+.mainmenuitem{
+    list-style: none;
+    float: right;
+}
+.mainmenuitem li{
+    float: left;
+    position: relative;
+    
+    
+    
+}
+.mainmenuitem li a{
+    text-decoration: none;
+    font-family: oswald;
+    font-size: 15px;
+    padding: 37px 15px;
+    display: block;
+    color: rgb(41, 39, 39);
+    letter-spacing: 2px;
+}
+.mainmenuitem li a:hover{
+    color: #ff5200;
+    transition: 0.3s;
+}
+.homeslider{
+    background: url(slide-1.jpg);
+    width: 1349px;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 0;
+    
+}
+.slidercontent{
+    color: white;
+    width: 500px;
+    
+}
+.slidercontent h1{
+    font-size: 50px;
+    text-transform: uppercase;
+    font-family: oswald;
+    margin-bottom: 30px;
+    margin-top: 120px;
+    float: left;
+}
+.slidercontent p{
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 25px;
+    margin-bottom: 30px;
+}
+.sliderbutton{
+    text-transform: uppercase;
+    background: #ff5200;
+    color: white;
+    padding: 14px 40px;
+    font-family: oswald;
+    letter-spacing: 1px;
+    font-size: 16px;
+    border: none;
+    margin-bottom: 100px;
+    border-radius: 3px;
+    
+}
+.slidernev{
+    width: 200px;
+    margin: auto;
+    padding: 30px 0px;
+}
+.slidernev span{
+    height: 10px;
+    width: 10px;
+    background: transparent;
+    border: 1px solid #ddd;
+    display: block;
+    border-radius: 100%;
+    cursor: pointer;
+    float: left;
+    margin: 5px 5px;
+    
+}
+.services{
+    background: #F5F6F6;
+}
+.serviceboxwrapper{
+    overflow: hidden;
+}
+.singlebox{
+    width: 225px;
+    background: white;
+    padding: 15px;
+    float: left;
+    margin-right: 30px;
+    cursor: pointer;
+}
+.singlebox:hover{
+    background: #fb5200;
+    color:white;
+    transition: 0.5s;
+}
+.sboxicon{
+    color: #fb5200;
+}
+.singlebox:hover i{
+    color: white;
+}
+.singlebox:hover a{
+    color: white;
+}
+.sboxactive{
+    background: #fb5200;
+    color: white;
+}
+.sboxactive i{
+    color: white;
+}
+.sboxactive .more a{
+    color: white;
+}
+
+.sboxtitle h2{
+    font-family: oswald;
+    line-height: 30px;
+    margin-bottom: 25px;
+    text-align: center;
+}  
+.sboxicon{
+    text-align: center;
+    font-size: 40px;
+    color: #ff5200;
+    margin: 25px 0px;
+}
+.sboxdes{
+    text-align: center;
+    margin: 25px 0px;
+}
+.sboxdes p{
+    line-height: 25px;
+    font-size: 17px;
+}
+.more{
+    text-align: center;
+    margin: 25px 0px;
+}
+.more a{
+    text-decoration: none;
+    color: #fb5200;
+    font-weight: 400;
+    
+}
+.more a i{
+    margin-left: 10px ;
+    
+}
+.teamimg{
+    display: inline;
+    width: 550px;
+}
+.teamimg img{
+    width: 550px;
+
+}
+.teamwork{
+    width: 550px;
+    float: right;
+    padding-left: 40px;
+}
+.teamwork h1{
+    font-family: oswald;
+    font-size: 35px;
+
+}
+.teamwork p{
+    font-weight: 300;
+    line-height: 24px;
+    margin-bottom: 30px;
+}
+.worklist1{
+   
+    float: left;
+    margin-right: 20px;
+}
+li{
+    list-style: none;
+    padding: 12px;
+    color: rgb(41, 39, 39);
+}
+ul a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+li i{
+    margin-right: 15px;
+   padd
+}
+ul{
+    margin-bottom: 20px
+    ;
+}
+.startbtn {
+    background: #fb5200;
+    padding: 13px 30px;
+    color: white;
+    font-family: 'Oswald';
+    font-size: 16px;
+    letter-spacing: 2px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.startbtn:hover{
+    background: black;
+    color: white;
+}
+li a:hover{
+    color: #ff5200;
+    transition: 0.3s;
+}
+section#whychooseus {
+    background:linear-gradient(#00000091,#00000091), url(why-choose-us1.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.happycustomers {
+    color: white;
+    float: left;
+    width: 270px;
+    text-align: center;
+}
+.whychooseuswrapper{
+    overflow: hidden;
+}
+.pcompleted{
+    color: white;
+    float: left;
+    width: 270px;
+    text-align: center;
+}
+.branches{
+    color: white;
+    float: left;
+    width: 270px;
+    text-align: center;
+}
+.winner{
+    color: white;
+    float: left;
+    width: 270px;
+    text-align: center;
+}
+
+.whychooseuswrapper h2{
+    font-weight: 600;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+.whychooseuswrapper h3{
+    font-family: oswald;
+    font-size: 20px;
+}
+.whychooseuswrapper i{
+    font-size: 50px;
+    margin-bottom: 20px;
+
+}
+.morefromus{
+    background:#F5F6F6;
+}
+.morefromuswrapper{
+    overflow: hidden;
+    width: 100%;
+}
+.moreinfo{
+    text-align: center;
+    margin-bottom: 50px;
+    width: 500px;
+    margin: auto;
+}
+.moreinfo h1{
+    font-size: 40px;
+    font-family: oswald;
+}
+.moreinfo hr{
+    width: 60px;
+    height: 3px;
+    margin: auto;
+    border: none;
+    background: #ff5200;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.moreinfo p{
+    margin-bottom: 40px ;
+    font-weight: 300;
+    line-height: 25px;
+}
+.moreinfoimg img{
+    width: 256px;
+    padding: 12px;
+}
+.moreinfodes{
+    
+    display: inline-block;
+    
+}
+.des1{
+    width: 284px;
+    float: left;
+    margin-left: 10px;
+}
+.des2{
+    width: 286px;
+    float: left;
+}
+.des3{
+    width: 286px;
+    float: left;
+}
+.des4{
+    width: 256px;
+    float: left;
+}
+.moreinfodes h2{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.moreinfodes p{
+   width: 250px;
+   line-height: 20px;
+   font-weight: 300;
+   
+}
+.moreinfodes{
+    margin-left: 0px;
+}
+.priceplan{
+    background: #FFFFFF;
+}
+.priceplanwrapper{
+   
+}
+.priceplandes{
+    text-align: center;
+}
+.priceplandes h1{
+    font-size: 40px;
+}
+.priceplandes hr{
+    width: 60px;
+    height: 3px;
+    margin: auto;
+    border: none;
+    background: #ff5200;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.priceplandes p{
+    padding-bottom: 50px;
+    font-weight: 300;
+    line-height: 25px;
+    width: 500px;
+    margin: auto;
+}
+.priceplanstart{
+    width: 285px;
+    float: left;
+    background: white;
+    border: 1px solid rgb(240, 235, 235);
+    border-radius: 3px;
+    padding: 30px;
+    margin-right: 30px;
+    box-shadow: -15px 0px 3px #fbfbfb;
+    
+}
+.priceplanall{
+    background: #fbfbfb;
+}
+
+
+.priceplanall h1{
+    font-size: 40px;
+    font-weight: 800;
+}
+.priceplanall span{
+    font-size: 20px;
+    font-weight: 700;
+}
+.priceplanall p{
+    line-height: 35px;
+}
+.priceplanall i{
+    color: #fb5200;
+    margin-right: 10px;
+    
+}
+.priceplanall button{
+    background: #fb5200;
+    padding: 13px 30px;
+    color: white;
+    font-family: oswald;
+    font-size: 16px;
+    letter-spacing: 2px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 25px;
+}
+.priceplanpro{
+    width: 285px;
+    float: left;
+    background: white;
+    border: 1px solid rgb(240, 235, 235);
+    border-radius: 3px;
+    padding: 30px;
+    margin-right: 30px;
+    box-shadow: 32px 0px 2px #fbfbfb;
+    
+}
+.priceplanpremium{
+    width: 285px;
+    float: left;
+    background: white;
+    border: 1px solid rgb(240, 235, 235);
+    border-radius: 3px;
+    padding: 30px;
+    margin-right: 30px;
+    box-shadow: 15px 0px 3px #fbfbfb;
+}
+.ideas{
+
+}
+.ideasleftimg{
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    width: 50%;
+    overflow: hidden;
+    display: inline-block;
+}
+.ideasleftimg img{
+    width: 100%;
+    float: left;
+}
+.ideasrightcontent{
+    width: 50%;
+    background: #222222;
+    color: white;
+    float: right;
+    height: 442px;
+}
+.rcontent{
+    padding: 50px;
+}
+.rcontent h1{
+    font-size: 30px;
+}
+.rcontent p{
+    line-height: 25px;
+}
+.riconsingle{
+    overflow: hidden;
+    width: 320px;
+    float: left;
+
+}
+.ricon {
+    font-size: 60px;
+    color: #fb5200;
+    float: left;
+    margin-left: 70px;
+    width: 75px;
+}
+.ricontitle h3{
+    margin-bottom: 10px;
+    font-size: 20px;
+
+}
+.ricontitle p{
+    line-height: 25px;
+}
+.meatourteamcontent{
+    text-align: center;
+    overflow: hidden;
+}
+.meatourteamcontent h1{
+    font-size: 40px;
+}
+.meatourteamcontent hr{
+    width: 60px;
+    height: 3px;
+    margin: auto;
+    border: none;
+    background: #ff5200;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.meatourteamcontent p{
+    padding-bottom: 50px;
+    font-weight: 300;
+    line-height: 25px;
+    width: 500px;
+    margin: auto;
+}
+.teampersons {
+    overflow: hidden;
+}
+
+.singleperson {
+    margin-right: 30px;
+    width: 260px;
+    overflow: hidden;
+    float: left;
+}
+
+.singleperson:last-child {
+    margin-right: 0px;
+}
+
+.projectimg img {
+    width: 100%;
+}
+
+.singleimg img {width: 100%;}
+
+.singleinfo {
+    padding: 20px 15px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+}
+
+.singleinfo h3 {
+    font-size: 20px;
+}
+
+.singleinfo p {
+    font-size: 14px;
+    font-weight: 300;
+    margin-top: 6px;
+}
+
+.singleimg {
+    height: 260px;
+    overflow: hidden;
+    position: relative;
+    transition: 0.5s;
+}
+
+.teamjoinbtn {
+    margin-top: 55px;
+    display: grid;
+    place-items: center;
+}
+
+.teamjoinbtn button {
+    padding: 14px 45px;
+    font-family: 'Oswald';
+    font-size: 16px;
+    background: #242222;
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+
+.teamjoinbtn button:hover {
+    background: #fb5200;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.socialicon {width: 100%;position: absolute;bottom: 50px;text-align: center;left: 25%;}
+
+.socialicon a {
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    overflow: hidden;
+    float: left;
+    display: grid;
+    text-decoration: none;
+    color: white;
+    background: red;
+    margin: 5px;
+    padding: 5px;
+    transition: .3s;
+}
+.socialicon a:first-child{
+    background: #3b5998;
+    opacity: 0;
+    transition: 0.90s;
+}
+.socialicon a:nth-child(2){
+    background: #00acee;
+    opacity: 0;
+    transition: 0.70s;
+}
+.socialicon a:nth-child(3){
+    background: #db4a39;
+    opacity: 0;
+    transition: 0.50s;
+}
+.socialicon a:last-child{
+    background: #0e76a8;
+    opacity: 0;
+    transition: 0.30s;
+}
+.socialicon a:hover{
+    background: white;
+    color: #333;
+}
+.singleperson:hover .socialicon a:first-child{
+    transform: translateY(20px);
+    opacity: 1;
+
+}
+.singleperson:hover .socialicon a:nth-child(2){
+    transform: translateY(20px);
+    opacity: 1;
+
+}
+.singleperson:hover .socialicon a:nth-child(3){
+    transform: translateY(20px);
+    opacity: 1;
+
+}
+.singleperson:hover .socialicon a:nth-child(4){
+    transform: translateY(20px);
+    opacity: 1;
+
+}
+.singleimg:hover{
+    transform: scale(1.1);
+    
+}
+.bestprojects {
+    background: #F6F5F5;
+}
+.projectwrapper {
+    overflow: hidden;
+    column-count: 3;
+}
+
+.singleproject {
+    width: 350px;
+    float: left;
+    position: relative;
+    margin-bottom: 30px;
+    overflow: hidden;
+    
+}
+.singleproject img {
+    width: 100%;
+}
+
+.projectinfo {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 290px;
+    padding: 30px;
+    color: white;
+    background: linear-gradient(-360deg, #000000b0, transparent);
+    overflow: hidden;
+    padding-bottom: 0px;
+    transition: 0.3s;
+}
+#learnmorebtn {
+    color: white;
+    
+}
+
+#learnmorebtn {
+    transform: translateX(-135px);
+    display: block;
+    transition-delay: 0.3s;
+    transition: 0.5s;
+}
+.projectinfo a{
+    color: white;
+}
+
+.singleproject:hover .projectinfo{
+    padding-bottom: 50px;
+}
+.singleproject:hover #learnmorebtn{
+    transform: translateX(0px);
+}
+.projectinfo h3 {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.newswrapper {
+    overflow: hidden;
+}
+
+.singlenews {
+    width: 350px;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    float: left;
+    overflow: hidden;
+    transition: 0.5s;
+}
+.singlenews:hover .newsimg img{
+    transform: scale(1.1);
+}
+
+.singlenews:last-child {
+    margin-right: 0px!important;
+}
+
+.newsimg img {
+    width: 100%;
+    transition: 0.5s;
+}
+
+.newsmeta {
+    padding: 30px;
+    border-left: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+}
+
+.newscategory {
+    margin-bottom: 30px;
+    position: relative
+    ;
+}
+.newscategory a {
+    font-size: 15px;
+    text-decoration: none;
+    font-weight: 300;
+    display: block;
+    float: left;
+    overflow: hidden;
+    color: #444;
+    width: 120px;
+}
+
+.newscategory a:last-child {
+    margin-left: 15px;
+}
+.newscategory a:last-child:hover{
+    color: #fb5200;
+}
+.newstitle h2 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.newstitle p {
+    color: #6c6868;
+    line-height: 24px;
+    margin-bottom: 15px;
+}
+
+.newstitle a {
+    text-decoration: none;
+    color: #fb5200;
+}
+
+.newstitle {}
+
+.newstitle h2:hover {
+    cursor: pointer;
+    color: #fb5200;
+}
+
+.newscategory:after {
+    content: "";
+    /* color: #fb5200; */
+    border-bottom: 2px solid #fb5200;
+    position: absolute;
+    width: 20px;
+    right: 172px;
+    top: 9px;
+}
+footer.footer {
+    background: #1a1a1a;
+    color: white;
+}
+
+.copyrightcontainer {
+    overflow: hidden;
+    color: #999;
+    border-top: 1px solid #333;
+}
+
+.copyrighttext {
+    width: 570px;
+    float: left;
+    padding-top: 30px;
+}
+
+.copyrightcontent {
+    overflow: hidden;
+}
+
+.copyrightmenu {
+    width: 570px;
+    float: right;
+}
+
+.copyrightmenu ul {
+    overflow: hidden;float: right;
+    display: block;
+    padding: 15px;
+}
+
+.copyrightmenu ul li {
+    float: left;
+}
+
+.copyrightmenu ul li a {
+    color: #999;
+}
+.fboxwrapper {
+    overflow: hidden;
+    margin-bottom: 50px;
+}
+
+.fbox {
+    overflow: hidden;
+    width: 250px;
+    float: left;
+    margin-right: 30px;
+    margin-top: 150px;
+}
+
+.fbox:last-child {
+    margin-right: 0px!important;
+}
+
+
+
+.fbox h3 {
+    /* margin-bottom: 20px; */
+}
+
+.fbox p {
+    color: #999;
+    font-size: 15px;
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+.ficons a {
+    padding-right: 15px;
+    color: #999;
+    transition: 0.3s;
+}
+.ficons a:hover{
+    color: #fb5200;
+}
+.fbox span {
+    width: 274px;
+    display: block;
+    color: #999;
+    padding: 8px;
+}
+.fbox h3{
+    margin-bottom: 20px;
+}
+
+
+.fbox span i {
+    color: #fb5200;
+    display: block;
+    float: left;
+    margin-right: 15px;
+    
+}
+
+.fbox ul li a {
+    color: #999;
+}
+
+
+
+.fbox ul li {
+    padding: 5px;
+    transition: .3s
+    ;
+}
+
+.fbox ul li a:hover {
+    color: #fb5200;
+}
+.frpost {
+    overflow: hidden;
+}
+
+.frpostmeta {
+    width: 50px;
+    background: #333;
+    overflow: hidden;
+    height: 68px;
+    border-radius: 4px;
+    float: left;
+    margin-right: 20px;
+}
+
+.frpostmeta span {
+    color: white;
+}
+
+.frpost {
+    overflow: hidden;
+}
+
+.frpostmeta span {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 7px;
+    font-weight: 800;
+    font-size: 22px;
+    margin-top: 5px;
+}
+span#april19 {
+    font-size: 10px;
+    text-align: center;
+}
+
+.frposttitle {
+    color: #999;
+    margin-bottom: 20px;
+}
+
+.frposttitle a {
+    text-decoration: none;
+    color: #999;
+    font-size: 11px;
+    font-weight: 300;
+}
+
+.frposttitle h4 {
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+.subscribeboxwrapper {
+    overflow: hidden;
+    background: #fb5200;
+    color: white;
+    border-radius: 3px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;500;600&family=Work+Sans:ital,wght@0,100;0,300;0,400;0,500;0,600;0,800;0,900;1,100;1,300;1,400;1,500;1,600;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;500;600&family=Work+Sans:ital,wght@0,100;0,300;0,400;0,500;0,600;0,800;0,900;1,100;1,300;1,400;1,500;1,600;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family:'Oswald', sans-serif;
+    font-weight:500;
+}
+section{
+    padding: 80px 0px;
+}
+.topbarmain{
+    background: #F5F5F5;
+}
+.container{
+    width: 1140px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: auto;
+} 
+.phone{
+    width: 210px;
+    float: left;
+    padding: 15px 10px;
+    border-left: 1px solid #ddd;
+    
+} 
+.email{
+    width: 678px;
+    float: left;
+    padding: 15px 10px;
+    border-left: 1px solid #ddd;
+
+}
+.social{
+    width: 210px;
+    float: left;
+}
+.topbarwrapper{
+    overflow: hidden;
+}
+.social a{
+    display: block;
+    float: left;
+    padding: 15px;
+    border-right: 1px solid #ddd;
+    color: rgb(48, 46, 46);
+}   
+.social a:first-child{
+    border-left:1px solid #ddd;
+}
+.phone i{
+    color: #ff5200;
+    padding-right: 10px;
+}
+
+.email i{
+    color: #ff5200;
+    padding-right: 10px;
+}
+.social a:hover{
+    color: #ff5200;
+    transition: 0.3s;
+}
+.primarymenuwrapper{
+    display: table;
+    width: 100%;
+}
+.logo{
+    width: 150px;
+    float: left;
+    margin-top: 22px;
+}
+.menu{
+    width: 990px;
+    float: left;
+}
+.mainmenuitem{
+    list-style: none;
+    float: right;
+}
+.mainmenuitem li{
+    float: left;
+    
+    
+    
+}
+.mainmenuitem li a{
+    text-decoration: none;
+    font-family: oswald;
+    font-size: 15px;
+    padding: 37px 15px;
+    display: block;
+    color: rgb(41, 39, 39);
+    letter-spacing: 2px;
+}
+.mainmenuitem li a:hover{
+    color: #ff5200;
+    transition: 0.3s;
+}
+.homeslider{
+    background: url(slide-1.jpg);
+    width: 1349px;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 0;
+    
+}
+.slidercontent{
+    color: white;
+    width: 500px;
+    
+}
+.slidercontent h1{
+    font-size: 50px;
+    text-transform: uppercase;
+    font-family: oswald;
+    margin-bottom: 30px;
+    margin-top: 120px;
+    float: left;
+}
+.slidercontent p{
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 25px;
+    margin-bottom: 30px;
+}
+.sliderbutton{
+    text-transform: uppercase;
+    background: #ff5200;
+    color: white;
+    padding: 14px 40px;
+    font-family: oswald;
+    letter-spacing: 1px;
+    font-size: 16px;
+    border: none;
+    margin-bottom: 100px;
+    border-radius: 3px;
+    
+}
+.slidernev{
+    width: 200px;
+    margin: auto;
+    padding: 30px 0px;
+}
+.slidernev span{
+    height: 10px;
+    width: 10px;
+    background: transparent;
+    border: 1px solid #ddd;
+    display: block;
+    border-radius: 100%;
+    cursor: pointer;
+    float: left;
+    margin: 5px 5px;
+    
+}
+.services{
+    background: #F5F6F6;
+}
+.serviceboxwrapper{
+    overflow: hidden;
+}
+.singlebox{
+    width: 225px;
+    background: white;
+    padding: 15px;
+    float: left;
+    margin-right: 30px;
+    cursor: pointer;
+}
+.singlebox:hover{
+    background: #fb5200;
+    color:white;
+    transition: 0.5s;
+}
+.sboxicon{
+    color: #fb5200;
+}
+.singlebox:hover i{
+    color: white;
+}
+.singlebox:hover a{
+    color: white;
+}
+.sboxactive{
+    background: #fb5200;
+    color: white;
+}
+.sboxactive i{
+    color: white;
+}
+.sboxactive .more a{
+    color: white;
+}
+
+.sboxtitle h2{
+    font-family: oswald;
+    line-height: 30px;
+    margin-bottom: 25px;
+    text-align: center;
+}  
+.sboxicon{
+    text-align: center;
+    font-size: 40px;
+    color: #ff5200;
+    margin: 25px 0px;
+}
+.sboxdes{
+    text-align: center;
+    margin: 25px 0px;
+}
+.sboxdes p{
+    line-height: 25px;
+    font-size: 17px;
+}
+.more{
+    text-align: center;
+    margin: 25px 0px;
+}
+.more a{
+    text-decoration: none;
+    color: #fb5200;
+    font-weight: 400;
+    
+}
+.more a i{
+    margin-left: 10px ;
+    
+}
+.teamimg{
+    display: inline;
+    width: 550px;
+}
+.teamimg img{
+    width: 550px;
+
+}
+.teamwork{
+    width: 550px;
+    float: right;
+    padding-left: 40px;
+}
+.teamwork h1{
+    font-family: oswald;
+    font-size: 35px;
+
+}
+.teamwork p{
+    font-weight: 300;
+    line-height: 24px;
+    margin-bottom: 30px;
+}
+.worklist1{
+   
+    float: left;
+    margin-right: 20px;
+}
+li{
+    list-style: none;
+    padding: 12px;
+    color: rgb(41, 39, 39);
+}
+ul a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+li i{
+    margin-right: 15px;
+   padd
+}
+ul{
+    margin-bottom: 20px
+    ;
+}
+.startbtn {
+    background: #fb5200;
+    padding: 13px 30px;
+    color: white;
+    font-family: 'Oswald';
+    font-size: 16px;
+    letter-spacing: 2px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.startbtn:hover{
+    background: black;
+    color: white;
+}
+li a:hover{
+    color: #ff5200;
+    transition: 0.3s;
+}
+section#whychooseus {
+    background:linear-gradient(#00000091,#00000091), url(why-choose-us1.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.happycustomers {
+    color: white;
+    float: left;
+    width: 270px;
+    text-align: center;
+}
+.whychooseuswrapper{
+    overflow: hidden;
+}
+.pcompleted{
+    color: white;
+    float: left;
+    width: 270px;
+    text-align: center;
+}
+.branches{
+    color: white;
+    float: left;
+    width: 270px;
+    text-align: center;
+}
+.winner{
+    color: white;
+    float: left;
+    width: 270px;
+    text-align: center;
+}
+
+.whychooseuswrapper h2{
+    font-weight: 600;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+.whychooseuswrapper h3{
+    font-family: oswald;
+    font-size: 20px;
+}
+.whychooseuswrapper i{
+    font-size: 50px;
+    margin-bottom: 20px;
+
+}
+.morefromus{
+    background:#F5F6F6;
+}
+.morefromuswrapper{
+    overflow: hidden;
+    width: 100%;
+}
+.moreinfo{
+    text-align: center;
+    margin-bottom: 50px;
+    width: 500px;
+    margin: auto;
+}
+.moreinfo h1{
+    font-size: 40px;
+    font-family: oswald;
+}
+.moreinfo hr{
+    width: 60px;
+    height: 3px;
+    margin: auto;
+    border: none;
+    background: #ff5200;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.moreinfo p{
+    margin-bottom: 40px ;
+    font-weight: 300;
+    line-height: 25px;
+}
+.moreinfoimg img{
+    width: 256px;
+    padding: 12px;
+}
+.moreinfodes{
+    
+    display: inline-block;
+    
+}
+.des1{
+    width: 284px;
+    float: left;
+    margin-left: 10px;
+}
+.des2{
+    width: 286px;
+    float: left;
+}
+.des3{
+    width: 286px;
+    float: left;
+}
+.des4{
+    width: 256px;
+    float: left;
+}
+.moreinfodes h2{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.moreinfodes p{
+   width: 250px;
+   line-height: 20px;
+   font-weight: 300;
+   
+}
+.moreinfodes{
+    margin-left: 0px;
+}
+.priceplan{
+    background: #FFFFFF;
+}
+.priceplanwrapper{
+   
+}
+.priceplandes{
+    text-align: center;
+}
+.priceplandes h1{
+    font-size: 40px;
+}
+.priceplandes hr{
+    width: 60px;
+    height: 3px;
+    margin: auto;
+    border: none;
+    background: #ff5200;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.priceplandes p{
+    padding-bottom: 50px;
+    font-weight: 300;
+    line-height: 25px;
+    width: 500px;
+    margin: auto;
+}
+.priceplanstart{
+    width: 285px;
+    float: left;
+    background: white;
+    border: 1px solid rgb(240, 235, 235);
+    border-radius: 3px;
+    padding: 30px;
+    margin-right: 30px;
+    box-shadow: -15px 0px 3px #fbfbfb;
+    
+}
+.priceplanall{
+    background: #fbfbfb;
+}
+
+
+.priceplanall h1{
+    font-size: 40px;
+    font-weight: 800;
+}
+.priceplanall span{
+    font-size: 20px;
+    font-weight: 700;
+}
+.priceplanall p{
+    line-height: 35px;
+}
+.priceplanall i{
+    color: #fb5200;
+    margin-right: 10px;
+    
+}
+.priceplanall button{
+    background: #fb5200;
+    padding: 13px 30px;
+    color: white;
+    font-family: oswald;
+    font-size: 16px;
+    letter-spacing: 2px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 25px;
+}
+.priceplanpro{
+    width: 285px;
+    float: left;
+    background: white;
+    border: 1px solid rgb(240, 235, 235);
+    border-radius: 3px;
+    padding: 30px;
+    margin-right: 30px;
+    box-shadow: 32px 0px 2px #fbfbfb;
+    
+}
+.priceplanpremium{
+    width: 285px;
+    float: left;
+    background: white;
+    border: 1px solid rgb(240, 235, 235);
+    border-radius: 3px;
+    padding: 30px;
+    margin-right: 30px;
+    box-shadow: 15px 0px 3px #fbfbfb;
+}
+.ideas{
+
+}
+.ideasleftimg{
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    width: 50%;
+    overflow: hidden;
+    display: inline-block;
+}
+.ideasleftimg img{
+    width: 100%;
+    float: left;
+}
+.ideasrightcontent{
+    width: 50%;
+    background: #222222;
+    color: white;
+    float: right;
+    height: 442px;
+}
+.rcontent{
+    padding: 50px;
+}
+.rcontent h1{
+    font-size: 30px;
+}
+.rcontent p{
+    line-height: 25px;
+}
+.riconsingle{
+    overflow: hidden;
+    width: 320px;
+    float: left;
+    margin-top: 20px;
+}
+.ricon {
+    font-size: 60px;
+    color: #fb5200;
+    float: left;
+    margin-left: 70px;
+    width: 75px;
+}
+.ricontitle h3{
+    margin-bottom: 10px;
+    font-size: 20px;
+
+}
+.ricontitle p{
+    line-height: 25px;
+}
+.meatourteamcontent{
+    text-align: center;
+    overflow: hidden;
+}
+.meatourteamcontent h1{
+    font-size: 40px;
+}
+.meatourteamcontent hr{
+    width: 60px;
+    height: 3px;
+    margin: auto;
+    border: none;
+    background: #ff5200;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.meatourteamcontent p{
+    padding-bottom: 50px;
+    font-weight: 300;
+    line-height: 25px;
+    width: 500px;
+    margin: auto;
+}
+.teampersons {
+    overflow: hidden;
+}
+
+.singleperson {
+    margin-right: 30px;
+    width: 260px;
+    overflow: hidden;
+    float: left;
+}
+
+.singleperson:last-child {
+    margin-right: 0px;
+}
+
+.projectimg img {
+    width: 100%;
+}
+
+.singleimg img {width: 100%;}
+
+.singleinfo {
+    padding: 20px 15px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+}
+
+.singleinfo h3 {
+    font-size: 20px;
+}
+
+.singleinfo p {
+    font-size: 14px;
+    font-weight: 300;
+    margin-top: 6px;
+}
+
+.singleimg {
+    height: 260px;
+    overflow: hidden;
+    position: relative;
+    transition: 0.5s;
+}
+
+.teamjoinbtn {
+    margin-top: 55px;
+    display: grid;
+    place-items: center;
+}
+
+.teamjoinbtn button {
+    padding: 14px 45px;
+    font-family: 'Oswald';
+    font-size: 16px;
+    background: #242222;
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+
+.teamjoinbtn button:hover {
+    background: #fb5200;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.socialicon {width: 100%;position: absolute;bottom: 50px;text-align: center;left: 25%;}
+
+.socialicon a {
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    overflow: hidden;
+    float: left;
+    display: grid;
+    text-decoration: none;
+    color: white;
+    background: red;
+    margin: 5px;
+    padding: 5px;
+    transition: .3s;
+}
+.socialicon a:first-child{
+    background: #3b5998;
+    opacity: 0;
+    transition: 0.90s;
+}
+.socialicon a:nth-child(2){
+    background: #00acee;
+    opacity: 0;
+    transition: 0.70s;
+}
+.socialicon a:nth-child(3){
+    background: #db4a39;
+    opacity: 0;
+    transition: 0.50s;
+}
+.socialicon a:last-child{
+    background: #0e76a8;
+    opacity: 0;
+    transition: 0.30s;
+}
+.socialicon a:hover{
+    background: white;
+    color: #333;
+}
+.singleperson:hover .socialicon a:first-child{
+    transform: translateY(20px);
+    opacity: 1;
+
+}
+.singleperson:hover .socialicon a:nth-child(2){
+    transform: translateY(20px);
+    opacity: 1;
+
+}
+.singleperson:hover .socialicon a:nth-child(3){
+    transform: translateY(20px);
+    opacity: 1;
+
+}
+.singleperson:hover .socialicon a:nth-child(4){
+    transform: translateY(20px);
+    opacity: 1;
+
+}
+.singleimg:hover{
+    transform: scale(1.1);
+    
+}
+.bestprojects {
+    background: #F6F5F5;
+}
+.projectwrapper {
+    overflow: hidden;
+    column-count: 3;
+}
+
+.singleproject {
+    width: 350px;
+    float: left;
+    position: relative;
+    margin-bottom: 30px;
+    overflow: hidden;
+    
+}
+.singleproject img {
+    width: 100%;
+}
+
+.projectinfo {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 290px;
+    padding: 30px;
+    color: white;
+    background: linear-gradient(-360deg, #000000b0, transparent);
+    overflow: hidden;
+    padding-bottom: 0px;
+    transition: 0.3s;
+}
+#learnmorebtn {
+    color: white;
+    
+}
+
+#learnmorebtn {
+    transform: translateX(-135px);
+    display: block;
+    transition-delay: 0.3s;
+    transition: 0.5s;
+}
+.projectinfo a{
+    color: white;
+}
+
+.singleproject:hover .projectinfo{
+    padding-bottom: 50px;
+}
+.singleproject:hover #learnmorebtn{
+    transform: translateX(0px);
+}
+.projectinfo h3 {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.newswrapper {
+    overflow: hidden;
+}
+
+.singlenews {
+    width: 350px;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    float: left;
+    overflow: hidden;
+    transition: 0.5s;
+}
+.singlenews:hover .newsimg img{
+    transform: scale(1.1);
+}
+
+.singlenews:last-child {
+    margin-right: 0px!important;
+}
+
+.newsimg img {
+    width: 100%;
+    transition: 0.5s;
+}
+
+.newsmeta {
+    padding: 30px;
+    border-left: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+}
+
+.newscategory {
+    margin-bottom: 30px;
+    position: relative
+    ;
+}
+.newscategory a {
+    font-size: 15px;
+    text-decoration: none;
+    font-weight: 300;
+    display: block;
+    float: left;
+    overflow: hidden;
+    color: #444;
+    width: 120px;
+}
+
+.newscategory a:last-child {
+    margin-left: 15px;
+}
+.newscategory a:last-child:hover{
+    color: #fb5200;
+}
+.newstitle h2 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.newstitle p {
+    color: #6c6868;
+    line-height: 24px;
+    margin-bottom: 15px;
+}
+
+.newstitle a {
+    text-decoration: none;
+    color: #fb5200;
+}
+
+.newstitle {}
+
+.newstitle h2:hover {
+    cursor: pointer;
+    color: #fb5200;
+}
+
+.newscategory:after {
+    content: "";
+    /* color: #fb5200; */
+    border-bottom: 2px solid #fb5200;
+    position: absolute;
+    width: 20px;
+    right: 172px;
+    top: 9px;
+}
+footer.footer {
+    background: #1a1a1a;
+    color: white;
+}
+
+.copyrightcontainer {
+    overflow: hidden;
+    color: #999;
+    border-top: 1px solid #333;
+}
+
+.copyrighttext {
+    width: 570px;
+    float: left;
+    padding-top: 30px;
+}
+
+.copyrightcontent {
+    overflow: hidden;
+}
+
+.copyrightmenu {
+    width: 570px;
+    float: right;
+}
+
+.copyrightmenu ul {
+    overflow: hidden;float: right;
+    display: block;
+    padding: 15px;
+}
+
+.copyrightmenu ul li {
+    float: left;
+}
+
+.copyrightmenu ul li a {
+    color: #999;
+}
+.fboxwrapper {
+    overflow: hidden;
+    margin-bottom: 50px;
+}
+
+.fbox {
+    overflow: hidden;
+    width: 250px;
+    float: left;
+    margin-right: 30px;
+    margin-top: 150px;
+}
+
+.fbox:last-child {
+    margin-right: 0px!important;
+}
+
+
+
+.fbox h3 {
+    /* margin-bottom: 20px; */
+}
+
+.fbox p {
+    color: #999;
+    font-size: 15px;
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+.ficons a {
+    padding-right: 15px;
+    color: #999;
+    transition: 0.3s;
+}
+.ficons a:hover{
+    color: #fb5200;
+}
+.fbox span {
+    width: 274px;
+    display: block;
+    color: #999;
+    padding: 8px;
+}
+.fbox h3{
+    margin-bottom: 20px;
+}
+
+
+.fbox span i {
+    color: #fb5200;
+    display: block;
+    float: left;
+    margin-right: 15px;
+    
+}
+
+.fbox ul li a {
+    color: #999;
+}
+
+
+
+.fbox ul li {
+    padding: 5px;
+    transition: .3s
+    ;
+}
+
+.fbox ul li a:hover {
+    color: #fb5200;
+}
+.frpost {
+    overflow: hidden;
+}
+
+.frpostmeta {
+    width: 50px;
+    background: #333;
+    overflow: hidden;
+    height: 68px;
+    border-radius: 4px;
+    float: left;
+    margin-right: 20px;
+}
+
+.frpostmeta span {
+    color: white;
+}
+
+.frpost {
+    overflow: hidden;
+}
+
+.frpostmeta span {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 7px;
+    font-weight: 800;
+    font-size: 22px;
+    margin-top: 5px;
+}
+span#april19 {
+    font-size: 10px;
+    text-align: center;
+}
+
+.frposttitle {
+    color: #999;
+    margin-bottom: 20px;
+}
+
+.frposttitle a {
+    text-decoration: none;
+    color: #999;
+    font-size: 11px;
+    font-weight: 300;
+}
+
+.frposttitle h4 {
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+.subscribeboxwrapper {
+    overflow: hidden;
+    background: #fb5200;
+    color: white;
+    border-radius: 3px;
+}
+input[type="text"] {}
+
+h3 {
+    margin-top: 2px;
+}
+
+.ricontitle {
+    /* margin-top: 20px; */
+}
+
+.subscribebox {
+    padding: 30px;
+    width: 320px;
+    float: left;
+    overflow: hidden;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    width: 202px;
+    /* height: 21px; */
+    padding: 15px;
+    border: none;
+    border-radius: 50px;
+    font-family: 'Oswald';
+    letter-spacing: 1px;
+    /* position: relative; */
+    /* display: block; */
+    font-weight: 400;
+    /* overflow: hidden; */
+}
+
+.subscribebox:first-child {
+}
+
+.subscribebox {}
+
+input#submitbox {
+    width: 110px;
+    height: 50px;
+    padding: 19px;
+    border: none;
+    border-radius: 50px;
+    background: #020202;
+    color: white;
+    font-weight: 600;
+    /* position: absolute; */
+    top: 0;
+    /* right: 0; */
+    margin-left: -85px;
+}
+p {
+    margin-bottom: 10px;
+}
+.subsfollowicons a {
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 100%;
+    color: white;
+}
+
+.subsfollwicons {
+    margin-top: 30px;
+}
+.subsfollwicons a {
+    color: white;
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 100%;
+}
+section.subscribe {
+    position: relative;
+    margin-bottom: -157px;
+    margin-top: -90px;
+}
